@@ -1,0 +1,5 @@
+runmode: debug
+addr: 8881
+name: server
+url: http://127.0.0.1:8881
+max_ping_count: 10
