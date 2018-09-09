@@ -1,0 +1,14 @@
+runmode: debug
+addr: 8881
+name: server
+url: http://127.0.0.1:8881
+max_ping_count: 10
+log:
+  writers: file,stdout
+  logger_level: DEBUG
+  logger_file: log/server.log
+  log_format_text: false
+  rollingPoficy: size
+  log_rotate_date: 1
+  log_rotate_size: 1024
+  log_backup_count: 7
