@@ -15,7 +15,6 @@ func Create(c *gin.Context) {
 		Password string `json:"password"`
 	}
 
-	var err error
 	if err := c.Bind(&r); err != nil {
 		hadler.SendResponse(c, errno.ErrBind, nil)
 		return
